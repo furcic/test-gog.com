@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/nav-style.css">
     <link rel="stylesheet" href="css/section-winter-offers.css">
     <link rel="stylesheet" href="css/section-banner-offer.css">
+    <link rel="stylesheet" href="css/section-titles.css">
+    <link rel="stylesheet" href="css/section-offers.css">
     
     <!-- FontAwesome -->
     <link rel="stylesheet" href="fontawesome/css/all.css">
@@ -60,21 +62,74 @@
         </div>
     </section>
 
-    <section class="banner-offer">
-        <button onclick="changeImage()">
-            <i class="fas fa-chevron-left gog-grey fa-2x"></i>
-        </button>
-        <div>
-            <img id="banner-offer-img" src="images/Cyberpunk-2077-banner.png" alt="Cyberpunk2077">
-            <h2 class="black"> &euro;59.99</h2>
-            <button class="cart-offer"> 
-                <i class="fas fa-shopping-cart"></i>
-               Add to cart
-           </button>
-        </div>
-        <button onclick="changeImage2()">
-            <i class="fas fa-chevron-right gog-grey fa-2x"></i>
-        </button>
+    <section id="banner-offer-id" class="banner-offer">
+            <button onclick="changeImage()">
+                <i class="fas fa-chevron-left gog-grey fa-2x"></i>
+            </button>
+            <div class="banner-offer-carousel">
+                <img id="banner-offer-img" src="images/Cyberpunk-2077-banner.png" alt="Cyberpunk2077">
+                <h2 id="banner-price" class="black"> &euro;59.99</h2>
+                <button class="cart-offer"> 
+                    <i class="fas fa-shopping-cart"></i>
+                   Add to cart
+               </button>
+            </div>
+            <button onclick="changeImage2()">
+                <i class="fas fa-chevron-right gog-grey fa-2x"></i>
+            </button>
     </section>
+
+    <section class="offers">
+        <div class="offer-items">
+            <img src="images/offers/divinity.png" alt="divinity">
+            <p class="item-name white">Divinity: Original Sin 2 - Definitive Edition</p>
+            <p class="initial-price">&euro; 44.99</p>
+            <p class="actual-price">&euro; 17.99</p>
+            <p class="sale-percent">-60%</p>
+            <span class="windows-logo"><i class="fab fa-windows fa-xs"></i></span>
+            <span class="apple-logo"><i class="fab fa-apple fa-xs"></i></span>
+            <button class="basket-button">
+                <i class="fas fa-shopping-cart"></i>
+             </button>
+        </div>
+
+        <div class="offer-items">
+            <img src="images/offers/fallout-nw.png" alt="fallout">
+            <p class="item-name white">Fallout: New Vegas Ultimate Edition</p>
+            <p class="initial-price">&euro; 19.99</p>
+            <p class="actual-price">&euro; 10.00</p>
+            <p class="sale-percent">-50%</p>
+            <span class="windows-logo"><i class="fab fa-windows fa-xs"></i></span>
+            <button class="basket-button">
+                <i class="fas fa-shopping-cart"></i>
+             </button>
+        </div>
+
+        <div class="offer-items">
+            <img src="images/offers/heroes.png" alt="heroes">
+            <p class="item-name white">Heroes of Might and Magic® 3: Complete</p>
+            <p class="initial-price">&euro; 9.99</p>
+            <p class="actual-price">&euro; 2.49</p>
+            <p class="sale-percent">-75%</p>
+            <span class="windows-logo"><i class="fab fa-windows fa-xs"></i></span>
+            <button class="basket-button">
+                <i class="fas fa-shopping-cart"></i>
+             </button>
+        </div>
+
+        <div class="offer-items">
+            <img src="images/offers/metro-ex.png" alt="metro">
+            <p class="item-name white">Metro Exodus - Gold Edition</p>
+            <p class="initial-price">&euro; 64.99</p>
+            <p class="actual-price">&euro; 22.09</p>
+            <p class="sale-percent">-66%</p>
+            <span class="windows-logo"><i class="fab fa-windows fa-xs"></i></span>
+            <button class="basket-button">
+                <i class="fas fa-shopping-cart"></i>
+             </button>
+        </div>
+
+    </section>
+
 </body>
 </html>

@@ -15,10 +15,12 @@
 }
 
 .banner-offer .fa-chevron-left{
+    padding-left: 10px;
     padding-right: 20px;
 }
 
 .banner-offer .fa-chevron-right{
+    padding-right: 10px;
     padding-left: 20px;
 }
 
@@ -68,7 +70,6 @@
         right: 160px;
     }
 }   
-
 
 @media (max-width: 660px){
     .banner-offer div .cart-offer{

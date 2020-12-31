@@ -4,11 +4,14 @@ nav .nav-gradient{
     background: linear-gradient(90deg, rgba(61,33,110,1) 0%, rgba(100,76,165,1) 33%, rgba(73,62,106,1) 66%, rgba(181,125,196,1) 100%);
 }
 
-nav .nav-content{ 
+nav{
     position: fixed;
+    width: 100%;
+}
+
+nav .nav-content{ 
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     justify-content: center;
     align-items: center;
     background-color: rgba(26,26,26,0.9);

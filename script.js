@@ -31,11 +31,21 @@ var x = setInterval(function() {
 function changeImage(){
   var img = document.getElementById('banner-offer-img');
   img.src = "images/the-witcher-3-banner.jpg";
+
+  var price = document.getElementById('banner-price');
+  price.innerHTML = '&euro;39.99';
+  price.className = "white";
+
   return false;
 }
 
 function changeImage2(){
   var img = document.getElementById('banner-offer-img');
   img.src = "images/Cyberpunk-2077-banner.png";
+
+  var price = document.getElementById('banner-price');
+  price.innerHTML = '&euro;59.99';
+  price.className = "black";
+
   return false;
 }
