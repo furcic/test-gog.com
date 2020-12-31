@@ -23,3 +23,25 @@ body{
 .black{
     color: #000000;
 }
+
+.light-red{
+    color: #FB5E4B;
+}
+
+.light-green{
+    color: #B8DB5F;
+}
+
+.no-decoration{
+    text-decoration: none;
+}
+
+.light-grey{
+    color: #999A97;
+}
+
+hr{
+    border: 0.5px solid #F7E03F;
+    background-color: #F7E03F;
+
+}

@@ -1,0 +1,25 @@
+.metro-giveaway{
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    width: 1000px;
+    height: 202px;
+    background-color: #000;
+}
+
+.metro-giveaway img {
+    height: 202px;
+}
+
+.metro-giveaway h2{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.metro-giveaway h3{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
