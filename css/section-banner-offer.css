@@ -1,0 +1,87 @@
+.banner-offer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.banner-offer div{
+    position: relative;
+}
+
+.banner-offer div img{
+    height: auto;
+    width: 100%;
+}
+
+.banner-offer .fa-chevron-left{
+    padding-right: 20px;
+}
+
+.banner-offer .fa-chevron-right{
+    padding-left: 20px;
+}
+
+.banner-offer button{
+    background-color: #1A0F34;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.banner-offer div h2{
+    position: absolute;
+    bottom: 50px;
+    right: 250px;
+}
+
+.banner-offer div .cart-offer{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    height: 49px;
+    width: 187px;
+    background-color: purple;
+    font-size: 20px;
+    background: rgb(144,191,52);
+    background: linear-gradient(180deg, rgba(144,191,52,1) 0%, rgba(144,191,52,1) 50%, rgba(77,112,9,1) 100%, rgba(123,46,144,1) 100%);
+    border-radius: 5px;
+}
+
+.banner-offer  .cart-offer:hover{
+    background: rgb(183,242,68);
+    background: linear-gradient(180deg, rgba(183,242,68,1) 0%, rgba(144,191,52,1) 50%, rgba(133,194,17,1) 100%, rgba(123,46,144,1) 100%);
+}
+
+@media (max-width: 920px){
+    .banner-offer div .cart-offer{
+        bottom: 20px;
+        right: 20px;
+        height: 41px;
+        width: 126px;
+        background-color: purple;
+        font-size: 14px;
+    }
+    .banner-offer div h2{
+        font-size: 20px;
+        bottom: 26px;
+        right: 160px;
+    }
+}   
+
+
+@media (max-width: 660px){
+    .banner-offer div .cart-offer{
+        bottom: 10px;
+        right: 10px;
+        height: 31px;
+        width: 80px;
+        background-color: purple;
+        font-size: 10px;
+    }
+    .banner-offer div h2{
+        font-size: 12px;
+        bottom: 16px;
+        right: 100px;
+    }
+}

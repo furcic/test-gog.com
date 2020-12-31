@@ -1,0 +1,39 @@
+.winter-offers{
+    height: 360px;
+    background-image: linear-gradient(transparent, #1A0F34 80%), url('/images/1030.png');
+    color: #fff;
+}
+
+.winter-offers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.winter-offers div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 360px;
+    width: 1000px;
+    padding-left: 10px;
+}
+
+.winter-offers h3{
+    font-size: 16px;
+}
+
+.winter-offers h2{
+    font-size: 28px;
+    padding-top: 10px;
+}
+
+@media (max-width: 525px){
+    .winter-offers h3{
+        font-size: 14px;
+    }
+    
+    .winter-offers h2{
+        font-size: 24px;
+    }
+}

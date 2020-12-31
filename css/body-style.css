@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Lato;
+}
+
+body{
+    background-color: #1A0F34;
+}
+
+.gog-purple{
+    color: #AD6EB5 !important;
+}
+
+.gog-grey{
+    color: #C1C1C2 !important;
+}
+
+.white{
+    color: #fff;
+}
+
+.black{
+    color: #000000;
+}

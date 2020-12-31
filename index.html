@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOG.com</title>
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/body-style.css">
+    <link rel="stylesheet" href="css/nav-style.css">
+    <link rel="stylesheet" href="css/section-winter-offers.css">
+    <link rel="stylesheet" href="css/section-banner-offer.css">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <nav>
+        <div class="nav-gradient">
+            <!-- this is the top purple gradient -->
+        </div>
+        <div class="nav-content">
+            <img src="images/gog-nav-logo.png" alt="gog-logo">
+            <a href="#">STORE
+                <i class="fas fa-chevron-down fa-xs"></i>
+            </a>
+            <a href="#">ABOUT
+                <i class="fas fa-chevron-down fa-xs"></i>
+            </a>
+            <a href="#">COMMUNITY
+                <i class="fas fa-chevron-down fa-xs"></i>
+            </a>
+            <a href="#">SUPPORT
+                <i class="fas fa-chevron-down fa-xs"></i>
+            </a>
+            <a class="gog-purple" href="#">SIGN IN
+                <i class="fas fa-chevron-down fa-xs gog-grey"></i>
+            </a>
+            <div class="basket-search">
+                <a href="#">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+                <a href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="winter-offers">
+        <div>
+            <h3>3500+ deals up to -91%</h3>
+            <h2>Metro:Last Light giveaway: &nbsp;<span id="countdown"></span></h2>    
+        </div>
+    </section>
+
+    <section class="banner-offer">
+        <button onclick="changeImage()">
+            <i class="fas fa-chevron-left gog-grey fa-2x"></i>
+        </button>
+        <div>
+            <img id="banner-offer-img" src="images/Cyberpunk-2077-banner.png" alt="Cyberpunk2077">
+            <h2 class="black"> &euro;59.99</h2>
+            <button class="cart-offer"> 
+                <i class="fas fa-shopping-cart"></i>
+               Add to cart
+           </button>
+        </div>
+        <button onclick="changeImage2()">
+            <i class="fas fa-chevron-right gog-grey fa-2x"></i>
+        </button>
+    </section>
+</body>
+</html>
